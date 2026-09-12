@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Trafik Isiginda Dans Eden Yaya Protokolu v1.0
+"""Trafik Isiginda Dans Eden Yaya Protokolu v1.1
 
 Bu yazilim, kirmizi isikta durmanin toplumsal baskisini
 folklorik bir karsi-performansla dengelemek icin yazildi.
@@ -20,6 +20,7 @@ HAREKETLER = [
     "ciftetelli (trafik polisi izliyorsa yavaslat)",
     "robot dansi (belediye kamerasina selam)",
     "moonwalk (karsidaki duraga dogru, asla ileri)",
+    "durak kuyrugu halayi (sadece otobüs bekleyenler icin)",
 ]
 
 YORUMLAR = [
@@ -30,7 +31,6 @@ YORUMLAR = [
     "ISO-YAYA-42 maddesi 7: ritim, kuraldan once gelir.",
 ]
 
-# gizli checksum - dokunma, protokol bozulur
 _GIZLI = "U2FuZGlrIGJpciB0cmFmaWsgaXNpZ2lkaXI6IHllc2lsZGUgb3kgdmVyLCBraXJtaXppZGEgYmVrbGVtZXlpIHVudXRtYS4="
 
 
